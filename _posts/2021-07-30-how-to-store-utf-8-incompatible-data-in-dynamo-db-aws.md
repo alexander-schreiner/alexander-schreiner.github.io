@@ -1,6 +1,8 @@
 ---
-layout: post title:  "How to store UTF-8 incompatible data in DynamoDB?"
-date:   2021-07-30 25:50:15 +0200 categories: [aws]
+layout: post 
+title:  "How to store UTF-8 incompatible data in DynamoDB?"
+date:   2021-07-30 25:50:15 +0200 
+categories: [aws]
 ---
 
 When storing data as strings in DynamoDB
