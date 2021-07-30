@@ -3,7 +3,6 @@ description: IT knowledgebase and solutions
 author: Alexander Schreiner
 github: https://github.com/alexander-schreiner
 about: Software Engineer. PHP, JavaScript, etc.
-google_analytics: UA-XXXXXXXX-Y
 
 enableTags: true
 tagarray: [ ]
@@ -21,10 +20,6 @@ social:
   - icon: fa-github
     link: "https://github.com/alexander-schreiner"
 
-share:
-  twitter_username: github.io
-  fb_appid: 1749788565247320
-
 urls:
   - text: About Me
     url: /about/
@@ -33,7 +28,7 @@ urls:
   - text: XML Feed
     url: /feed.xml
 
-url: "https://agusmakmun.github.io"
+url: "https://alexander-schreiner.github.io"
 baseurl: ""
 paginate: 20
 per_page: 20
