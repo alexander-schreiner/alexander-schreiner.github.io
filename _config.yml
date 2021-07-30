@@ -1,13 +1,12 @@
-title: Stack Problems
-description: My Personal Stack Problems
-author: Agus Makmun
-github: https://github.com/agusmakmun
-about: I'm Programmer for Python & Django. I've made quite a few web apps, especially on Django.
-disqus_shortname: stackproblems
+title: IT Engineering
+description: IT knowledgebase and solutions
+author: Alexander Schreiner
+github: https://github.com/alexander-schreiner
+about: Software Engineer. PHP, JavaScript, etc.
 google_analytics: UA-XXXXXXXX-Y
 
 enableTags: true
-tagarray: []
+tagarray: [ ]
 
 collections:
   project:
@@ -15,28 +14,24 @@ collections:
     permalink: /project/:path/
 
 social:
-    - icon: fa-facebook
-      link: "#"
-    - icon: fa-twitter
-      link: "#"
-    - icon: fa-linkedin
-      link: "#"
-    - icon: fa-stack-exchange
-      link: "#"
-    - icon: fa-github
-      link: "https://github.com/agusmakmun"
+  - icon: fa-linkedin
+    link: "https://www.linkedin.com/in/alexander-schreiner-5722721b6/"
+  - icon: fa-stack-exchange
+    link: "#"
+  - icon: fa-github
+    link: "https://github.com/alexander-schreiner"
 
 share:
   twitter_username: github.io
   fb_appid: 1749788565247320
 
 urls:
-    - text: About Me
-      url: /about/
-    - text: My Projects
-      url: /projects/
-    - text: XML Feed
-      url: /feed.xml
+  - text: About Me
+    url: /about/
+  - text: My Projects
+    url: /projects/
+  - text: XML Feed
+    url: /feed.xml
 
 url: "https://agusmakmun.github.io"
 baseurl: ""
@@ -50,7 +45,7 @@ gems:
 
 compress_html:
   clippings: all
-  comments: ["<!-- ", " -->"]
+  comments: [ "<!-- ", " -->" ]
   endings: all
   ignore:
-    envs: ['development']
+    envs: [ 'development' ]
