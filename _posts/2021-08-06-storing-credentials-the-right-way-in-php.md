@@ -11,7 +11,7 @@ have made the mistake of writing credentials as literal strings in code (yes, i 
 
 ## How to do it right
 
-Store your credentials in an .env file at your project root. Your project root, or repository root, will be at the directory level on which your composer.json or README.md will be typically located at. Once you created your .env file you will have to migrate your credentials to the following structure:
+Store your credentials in an .env file at your project root. Your project root, or repository root, will be at the directory level on which your composer.json or README.md will be typically located at. Once you created your .env file, you will have to migrate your credentials to the following structure:
 
 ```text
 SOME_KEY=somesecret
@@ -34,7 +34,7 @@ $dotenv->load();
 
 This piece of code is best placed in the bootstrapping of your application, since you will most likely require values from .env in every single request. Depending on your php application, there might be some standard way to this.
 
-After loading your .env variables you may simply use them:
+After loading your .env variables, you may simply use them:
 
 ```php
 $someThing = $_ENV['SOME_KEY'];
