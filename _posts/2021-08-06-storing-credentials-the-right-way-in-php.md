@@ -2,7 +2,7 @@
 layout: post
 title:  "Storing credentials the right way in PHP"
 date:   2021-08-06 12:30:15 +0200
-categories: [php]
+categories: [php][security]
 ---
 
 Almost all applications have some sort of secrets, credentials or passwords which must remain a secret and kept private. Even though storing credentials is such an essential part of modern software development, you still see live applications storing their credentials in raw code and even having them checked into their version control. Even well known 
