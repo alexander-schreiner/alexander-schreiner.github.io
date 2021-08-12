@@ -23,8 +23,8 @@ social:
 urls:
   - text: About Me
     url: /about/
-  - text: XML Feed
-    url: /feed.xml
+  - text: Sitemap
+    url: /sitemap.xml
 
 url: "https://alexander-schreiner.github.io"
 baseurl: ""
