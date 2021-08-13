@@ -23,3 +23,36 @@ After having created your file we will use [Autoloading](https://www.php.net/man
     }
 },
 ```
+
+After adding your 'helpers.php' to your 'composer.json', we will now [dump the autoloader](https://getcomposer.org/doc/03-cli.md#dump-autoload-dumpautoload-). Now on every request your new 'helpers.php' file will be loaded automatically.
+
+## Adding functions
+Now we are ready to define helper functions in our 'helpers.php' file. For example:
+
+```php
+<?php
+
+if (! function_exists('redirect')) {
+    function redirect(string $url) {
+        // (...)
+    }
+}
+```
+
+And finally you may use your helper functions the following way:
+
+```php
+// (...)
+
+    public function proccess(): void
+    {
+        // (...)
+        if ($shouldRedirect === true) {
+            redirect($secureUrl);
+        }
+    }
+
+// (...)
+```
+
+Be aware not to bloat your 'helpers.php' since it will be loaded at every request.
