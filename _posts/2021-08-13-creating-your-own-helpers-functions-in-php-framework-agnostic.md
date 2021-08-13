@@ -55,4 +55,4 @@ And finally, you may use your helper functions the following way:
 // (...)
 ```
 
-Be aware not to bloat your 'helpers.php' since it will be loaded at every request.
+Be aware not to bloat your `helpers.php` since it will be loaded at every request.
