@@ -21,7 +21,7 @@ After having created your file we will use [Autoloading](https://www.php.net/man
     "psr-4": {
         "App\\": "app/"
     }
-},
+}
 ```
 
 After adding your 'helpers.php' to your 'composer.json', we will now [dump the autoloader](https://getcomposer.org/doc/03-cli.md#dump-autoload-dumpautoload-). Now, on every request, your new 'helpers.php' file will be loaded automatically.
