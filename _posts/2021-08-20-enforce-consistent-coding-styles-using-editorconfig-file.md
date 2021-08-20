@@ -11,7 +11,7 @@ There is a simple solution to this problem, and it is called [EditorConfig](http
 
 ## Creating the file
 
-To get started you'll need to create a `.editorconfig` file at root of your project. Next, you are free to specify whatever coding standard you wish. Please refer to [the official EditorConfig specification](https://editorconfig-specification.readthedocs.io/) and the [list of all EditorConfig properties](https://github.com/editorconfig/editorconfig/wiki/EditorConfig-Properties). You may also refer to [well-known projects using EditorConfig](https://github.com/editorconfig/editorconfig/wiki/Projects-Using-EditorConfig) for inspiration.
+To get started you'll need to create a `.editorconfig` file at root of your project. Next, you are free to specify whatever coding standard you wish. Please refer to [the official EditorConfig specification](https://editorconfig-specification.readthedocs.io/) and the [list of all EditorConfig properties](https://github.com/editorconfig/editorconfig/wiki/EditorConfig-Properties). You may also refer to [well-known projects using EditorConfig](https://github.com/editorconfig/editorconfig/wiki/Projects-Using-EditorConfig) for inspiration. The `.editorconfig` should be in your version control systems as any other normal file.
 
 To host an example we will be give you the following `.editorconfig`, which is a mix of code style settings for Go, JavaScript, PHP & Markdown files:
 ```ini
