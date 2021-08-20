@@ -40,3 +40,11 @@ trim_trailing_whitespace = false
 ```
 
 ## Enforcing the styles
+
+After having defined your coding style, you now must enforce it. Some IDEs may automatically detect the existence of a `.editorconfig` file and ask you if they should enforce it - your job is easy here. Otherwise your job now is to Google your IDE and find out how to enforce EditorConfig file coding styles for it. For some popular IDEs you can just click the links below:
+- [PHPStorm: Manage code style on a directory level with EditorConfig](https://www.jetbrains.com/help/phpstorm/configuring-code-style.html#editorconfig)
+- [EditorConfig for VS Code](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
+- [GoLand: Add an .editorconfig file](https://www.jetbrains.com/help/go/configuring-code-style.html#7eca5119)
+- [EditorConfig on SublimeText](https://packagecontrol.io/packages/EditorConfig)
+- [EditorConfig for Atom](https://atom.io/packages/editorconfig)
+- [WebStorm EditorConfig](https://www.jetbrains.com/help/webstorm/configuring-code-style.html#editorconfig)
