@@ -7,7 +7,7 @@ categories: [go, node.js, php]
 
 When working on a project as a team of multiple developers, you might run into the problems of different coding styles, complicating changesets. For example, one developer may indent his braces in a while-loop [using the Allman style](https://en.wikipedia.org/wiki/Indentation_style#Allman_style), while another may [adhere to the K&R style](https://en.wikipedia.org/wiki/Indentation_style#K&R_style). To some this may seem trivial, but when changesets start to get big, this can seriously impact the quality of code reviews, since reviewers have to deal with more code. Once there is a change in a file, it is common, that IDEs format the entire file, which might lead to a lot of unintended changes.
 
-There is a simple solution to this problem and it is called [EditorConfig](https://editorconfig.org/). Basically, EditorConfig provides you with the option of creating a file, that lets you define coding styles for your project. This, .editorconfig, file will then be interpreted by your ide of choice, which will then enforce the standard you defined on your code. That the theory.
+There is a simple solution to this problem, and it is called [EditorConfig](https://editorconfig.org/). Basically, EditorConfig provides you with the option of creating a file, that lets you define coding styles for your project. This, .editorconfig, file will then be interpreted by your IDE of choice, which will then enforce the standard you defined on your code. That the theory.
 
 ## Creating the file
 
