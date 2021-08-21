@@ -30,7 +30,7 @@ url: "https://alexander-schreiner.github.io"
 baseurl: ""
 paginate: 20
 per_page: 20
-paginate_path: "/page/:num/"
+paginate_path: "/blog/:num/"
 markdown: kramdown
 gems:
   - jekyll-paginate
