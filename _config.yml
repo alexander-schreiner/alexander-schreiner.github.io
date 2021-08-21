@@ -10,19 +10,17 @@ tagarray: [ ]
 collections:
   blog:
     output: true
-    permalink: /blog/:path/
+    permalink: /blog/:path
 
 social:
   - icon: fa-linkedin
-    link: "https://www.linkedin.com/in/alexander-schreiner-5722721b6/"
-  - icon: fa-stack-exchange
-    link: "#"
+    link: "https://www.linkedin.com/in/alexander-schreiner-5722721b6"
   - icon: fa-github
     link: "https://github.com/alexander-schreiner"
 
 urls:
   - text: About Me
-    url: /about/
+    url: /about
   - text: Sitemap
     url: /sitemap.xml
 
@@ -30,7 +28,7 @@ url: "https://alexander-schreiner.github.io"
 baseurl: ""
 paginate: 20
 per_page: 20
-paginate_path: "/blog/:num/"
+paginate_path: "/blog/:num"
 markdown: kramdown
 gems:
   - jekyll-paginate
