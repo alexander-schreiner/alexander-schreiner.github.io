@@ -2,7 +2,7 @@
 layout: post
 title:  "Creating your own helpers functions in PHP (Framework agnostic)"
 date:   2021-08-13 08:30:15 +0200
-categories: [php]
+tags: ["php"]
 ---
 
 Helper functions are a great way to beautify your code. Some PHP Frameworks even ship with [their own built-in helpers](https://laravel.com/docs/8.x/helpers). Start here to create your own helper functions, but, unlike other tutorials, 100% Framework agnostic.
