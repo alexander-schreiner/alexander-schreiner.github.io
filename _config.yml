@@ -1,16 +1,16 @@
-title: Stuff about software engineering and software development
+title: Solutions in software engineering
 description: Knowledgebase and solutions for devs
 author: Alexander Schreiner
 github: https://github.com/alexander-schreiner
-about: Software Engineer. PHP, JavaScript, etc.
+about: Software Engineer
 
 enableTags: true
 tagarray: [ ]
 
 collections:
-  project:
+  posts:
     output: true
-    permalink: /project/:path/
+    permalink: /:collection/:path/
 
 social:
   - icon: fa-linkedin
