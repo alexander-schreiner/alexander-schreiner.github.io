@@ -8,9 +8,9 @@ enableTags: true
 tagarray: [ ]
 
 collections:
-  posts:
+  blog:
     output: true
-    permalink: /posts/:path/
+    permalink: /blog/:path/
 
 social:
   - icon: fa-linkedin
