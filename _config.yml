@@ -10,7 +10,7 @@ tagarray: [ ]
 collections:
   posts:
     output: true
-    permalink: /posts/:path/
+    permalink: /blog/:path/
 
 social:
   - icon: fa-linkedin
