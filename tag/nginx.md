@@ -1,6 +1,6 @@
 ---
-layout: posts_by_category
+layout: posts_by_tag
 categories: nginx
 title: Nginx
-permalink: /category/nginx
+permalink: /tag/nginx
 ---

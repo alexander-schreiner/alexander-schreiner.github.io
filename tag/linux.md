@@ -1,6 +1,6 @@
 ---
-layout: posts_by_category
+layout: posts_by_tag
 categories: linux
 title: Linux
-permalink: /category/linux
+permalink: /tag/linux
 ---

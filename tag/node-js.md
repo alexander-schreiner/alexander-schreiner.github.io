@@ -1,6 +1,6 @@
 ---
-layout: posts_by_category
+layout: posts_by_tag
 categories: node-js
 title: Node.js
-permalink: /category/node-js
+permalink: /tag/node-js
 ---

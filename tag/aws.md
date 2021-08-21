@@ -1,6 +1,6 @@
 ---
-layout: posts_by_category
+layout: posts_by_tag
 categories: aws
 title: AWS
-permalink: /category/aws
+permalink: /tag/aws
 ---

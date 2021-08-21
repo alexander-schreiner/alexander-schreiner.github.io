@@ -1,6 +1,6 @@
 ---
-layout: posts_by_category
+layout: posts_by_tag
 categories: php
 title: PHP
-permalink: /category/php
+permalink: /tag/php
 ---
