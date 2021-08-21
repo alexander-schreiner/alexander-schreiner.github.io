@@ -8,6 +8,7 @@ layout: default
 <div class="post-content">
   <hr />
   {% for tag in site.tags %}
+  tag
     {% capture tag_slug %}{{ tag | first }}{% endcapture %}
     {% for c_slug in tag_slug %}
       {% if c_slug == page.tags %}
