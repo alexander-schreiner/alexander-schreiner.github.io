@@ -110,17 +110,24 @@ layout: compress
 <body>
 <div class="container">
     <header>
-        <a href="/">
-            <h1>{{ site.author }}</h1>
-        </a>
+        <div class="row">
+        <div class="col-md-3">
+            <a href="/">
+                <h1>{{ site.author }}</h1>
+            </a>
+        </div>
         
-        <a href="/about">
-            About
-        </a>
+        <div>
+            <a href="/about">
+                About
+            </a>
         
-        {% for link in site.social %}
-            <a href="{{ link.link }}" target="_blank"><i class="fa {{ link.icon }}"></i></a>
-        {% endfor %}        
+            {% for link in site.social %}
+                <a href="{{ link.link }}" target="_blank"><i class="fa {{ link.icon }}"></i></a>
+            {% endfor %}        
+            
+        </div>
+        </div>
         
     </header>
     
