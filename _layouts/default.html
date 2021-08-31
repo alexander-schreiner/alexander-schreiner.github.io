@@ -118,18 +118,25 @@ layout: compress
             </div>
         
             <div class="col-md-9 text-right">
-                <a href="/about">
-                    About
-                </a>
-       
-                <a href="/sitemap.xml">
-                    Sitemap
-                </a>
-            
+                <div class="nav-items">
+                    <div class="nav-item">
+                        <a href="/about">
+                            About
+                        </a>
+                    </div>
+                    <div class="nav-item">
+                        <a href="/sitemap.xml">
+                            Sitemap
+                        </a>
+                    </div>
+                       
                 {% for link in site.social %}
-                    <a href="{{ link.link }}" target="_blank"><i class="fa {{ link.icon }}"></i></a>
+                    <div class="nav-item">
+                        <a href="{{ link.link }}" target="_blank"><i class="fa {{ link.icon }}"></i></a>
+                    </div>
                 {% endfor %}        
             
+                </div>
             </div>
         </div>
         
