@@ -165,11 +165,12 @@ div.col-sm-3 div.profile-about {
 
 .nav-items {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   
 }
 
 .nav-item {
   display: flex;
+  margin-left: 35px;
 }
 
