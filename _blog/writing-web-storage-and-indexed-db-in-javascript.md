@@ -18,3 +18,30 @@ Data will be stored indefinitely, as long as you don't delete it with JavaScript
 - Session storage
 Stores data only for one session - data will persist until the tab is closed.
 
+Let's dive into an example using local storage:
+```javascript
+localStorage.getItem("foo");
+// returns null
+
+localStorage.setItem("foo", "bar");
+// returns undefined
+
+localStorage.getItem("foo");
+// returns "bar"
+```
+
+It's as easy as that! A quick example using session storage:
+```javascript
+localStorage.setItem("foo", "bar");
+// returns undefined
+
+localStorage.getItem("foo");
+// returns "bar"
+
+// *Tab gets closed. Another tab with the same URL gets loaded*
+
+localStorage.getItem("foo");
+// returns null
+```
+
+And that's basically it. It's very easy and very helpful! For more detail please [read the documentation](https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API).
