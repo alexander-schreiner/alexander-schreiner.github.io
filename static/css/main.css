@@ -31,11 +31,10 @@ h2, h3 {
 }
 a, a:link, a:active {
   text-decoration: none;
-  color: #3fa757;
+  color: #0366d6;
 }
 a:hover {
-  color: #B3B3B3;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 /* Layout */
