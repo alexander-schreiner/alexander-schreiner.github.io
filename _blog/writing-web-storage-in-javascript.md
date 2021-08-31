@@ -12,11 +12,9 @@ Using the WebStorage API, you can write key/value pairs in a handy way to browse
 ## Key/Value using WebStorage
 
 First of all there are two different types of WebStorage:
-- Local storage
-Data will be stored indefinitely, as long as you don't delete it with JavaScript or you clear the browser cache. 
+- Local storage: Data will be stored indefinitely, as long as you don't delete it with JavaScript or you clear the browser cache. 
 
-- Session storage
-Stores data only for one session - data will persist until the tab is closed.
+- Session storage: Stores data only for one session - data will persist until the tab is closed.
 
 Let's dive into an example using local storage:
 ```javascript
@@ -44,4 +42,4 @@ sessionStorage.getItem("foo");
 // returns null
 ```
 
-And that's basically it. It's very easy and very helpful! For more detail please [read the documentation](https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API).
+And that's basically it. It's very easy and very helpful! For more detail, please [read the documentation](https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API).
