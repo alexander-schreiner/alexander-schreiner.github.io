@@ -5,9 +5,9 @@ date:   2021-08-31 19:00:00 +0200
 tags: ["javascript"]
 ---
 
-## Comparing WebStorage & IndexedDB
+## Comparing WebStorage
 
-Using the WebStorage API you can write key/value pairs in a handy way to browsers. IndexedDB on the other hand is better used for more structured data and generally if you need a little more than key/value.
+Using the WebStorage API you can write key/value pairs in a handy way to browsers. This technique may be used, depending on the use-case, instead of cookies. You will find WebStorage to be very easy to deal with.
 
 ## Key/Value using WebStorage
 
