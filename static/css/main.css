@@ -172,5 +172,6 @@ div.col-sm-3 div.profile-about {
 .nav-item {
   display: flex;
   margin-left: 35px;
+  font-size: 18px;
 }
 
