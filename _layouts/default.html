@@ -104,6 +104,14 @@ layout: compress
             <h1>{{ site.author }}</h1>
         </a>
         
+        <a href="/about">
+            About
+        </a>
+        
+        {% for link in site.social %}
+            <a href="{{ link.link }}" target="_blank"><i class="fa {{ link.icon }}"></i></a>
+        {% endfor %}        
+        
     </header>
     
     <div class="col-sm-3">
