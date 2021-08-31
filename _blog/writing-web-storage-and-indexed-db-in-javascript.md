@@ -32,15 +32,15 @@ localStorage.getItem("foo");
 
 It's as easy as that! A quick example using session storage:
 ```javascript
-localStorage.setItem("foo", "bar");
+sessionStorage.setItem("foo", "bar");
 // returns undefined
 
-localStorage.getItem("foo");
+sessionStorage.getItem("foo");
 // returns "bar"
 
 // *Tab gets closed. Another tab with the same URL gets loaded*
 
-localStorage.getItem("foo");
+sessionStorage.getItem("foo");
 // returns null
 ```
 
