@@ -177,3 +177,7 @@ div.col-sm-3 div.profile-about {
 .container {
   max-width: 650px;
 }
+
+ol.posts {
+  padding-left: 0;
+}
