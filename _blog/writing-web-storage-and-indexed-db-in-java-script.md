@@ -12,5 +12,9 @@ Using the WebStorage API you can write key/value pairs in a handy way to browser
 ## Key/Value using WebStorage
 
 First of all there are two different types of WebStorage:
-1. Local storage
-2. Session storage
+- Local storage
+Data will be stored indefinitely, as long as you don't delete it with JavaScript or you clear the browser cache. 
+
+- Session storage
+Stores data only for one session - data will persist until the tab is closed.
+
