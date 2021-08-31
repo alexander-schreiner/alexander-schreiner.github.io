@@ -174,3 +174,6 @@ div.col-sm-3 div.profile-about {
   font-size: 18px;
 }
 
+.container {
+  max-width: 650px;
+}
