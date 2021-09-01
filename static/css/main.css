@@ -179,8 +179,11 @@ div.col-sm-3 div.profile-about {
   }
 }
 @media (max-width: 627px) {
-    .post-row .date-row {
+  .post-row .date-row {
     display: none;
+  }
+  .post-row .title-row {
+    margin-left: 15px;
   }
 }
 
