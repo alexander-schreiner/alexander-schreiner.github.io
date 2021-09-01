@@ -7,7 +7,7 @@ layout: default
     {% for post in site.blog %}
       {% if post.url %}
         <div class="row">
-          <div class="col-md-1">
+          <div class="col-md-3">
             {{ post.date | date: "%-d %B %Y" }}
           </div>
           <a href="{{ post.url }}">{{ post.title }}</a>
