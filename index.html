@@ -8,9 +8,11 @@ layout: default
       {% if post.url %}
         <div class="row">
           <div class="col-md-3" style="width: 23%;">
-            {{ post.date | date: "%d %B" }}
-            <div>
-              {{ post.date | date: "%Y" }}             
+            <div class="row">
+              {{ post.date | date: "%d %B" }}
+              <div class="text-right">
+                {{ post.date | date: "%Y" }}             
+              </div>
             </div>
           </div>
           <div class="col-md-9">
