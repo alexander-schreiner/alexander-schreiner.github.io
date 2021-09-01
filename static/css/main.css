@@ -178,6 +178,11 @@ div.col-sm-3 div.profile-about {
     margin-left: 0;
   }
 }
+@media (max-width: 627px) {
+    .post-row .date-row {
+    display: none;
+  }
+}
 
 .nav-items {
   display: flex;
