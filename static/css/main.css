@@ -163,6 +163,9 @@ div.col-sm-3 div.profile-about {
   .nav-items {
     justify-content: center;
   }
+  h1 {
+    text-align: center;
+  }
 }
 
 .nav-items {
