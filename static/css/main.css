@@ -169,6 +169,10 @@ div.col-sm-3 div.profile-about {
   .nav-items {
     justify-content: center;
   }
+  .nav-items-container {
+    display: flex;
+    justify-content: center;
+  }
 }
 
 .nav-items {
