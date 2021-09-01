@@ -168,6 +168,12 @@ div.col-sm-3 div.profile-about {
   }
 }
 
+@media (max-width: 991px) {
+  h1 {
+    color:red;
+  }
+}
+
 .nav-items {
   display: flex;
   justify-content: flex-end;
