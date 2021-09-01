@@ -9,8 +9,10 @@ layout: default
         <div class="row">
           <div class="col-md-3" style="width: 23%;">
             <div class="row">
-              {{ post.date | date: "%d %B" }}
-              <div class="text-right">
+              <div class="col-md-8">
+                {{ post.date | date: "%d %B" }}
+              </div>
+              <div class="col-md-4 text-right">
                 {{ post.date | date: "%Y" }}             
               </div>
             </div>
