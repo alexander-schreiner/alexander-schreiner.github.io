@@ -4,7 +4,7 @@ layout: default
 
 <div id="home">
   <div class="posts">
-    {% for post in site.blog %}
+    {% for post in site.blog reversed %}
       {% if post.url %}
         <div class="row">
           <div class="col-md-3" style="width: 23%;">
