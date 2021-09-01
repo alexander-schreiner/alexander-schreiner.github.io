@@ -9,7 +9,9 @@ layout: default
         <div class="row post-row">
           <div class="col-md-3 date-row" style="width: 23%;float:left;">
             <div class="row">
-              {{ post.date | date: "%d %m %Y" }}
+              <div class="col-md-12">
+                {{ post.date | date: "%d.%m.%Y" }}
+              </div>
             </div>
           </div>
           <div class="col-md-9 title-row" style="padding-left: 0;">
