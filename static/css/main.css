@@ -24,6 +24,7 @@ h1, h2, h3 {
 h1 {
   margin-bottom: 0px;
   font-size: 25px;
+  margin-top: 0;
 }
 h2, h3 {
   margin-bottom: 5px;
@@ -159,12 +160,14 @@ div.col-sm-3 div.profile-about {
   div.col-sm-3 {
     margin-top: 30px;
   }
+  .nav-items {
+    justify-content: center;
+  }
 }
 
 .nav-items {
   display: flex;
   justify-content: flex-end;
-  
 }
 
 .nav-item {
