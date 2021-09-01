@@ -160,17 +160,14 @@ div.col-sm-3 div.profile-about {
   div.col-sm-3 {
     margin-top: 30px;
   }
-  .nav-items {
-    justify-content: center;
-  }
-  h1 {
-    text-align: center;
-  }
 }
 
 @media (max-width: 991px) {
   h1 {
-    color:red;
+    text-align: center;
+  }
+  .nav-items {
+    justify-content: center;
   }
 }
 
