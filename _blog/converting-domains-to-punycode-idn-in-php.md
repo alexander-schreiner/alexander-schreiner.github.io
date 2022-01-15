@@ -35,3 +35,9 @@ Output:
 string(13) "reisebüro.de"
 ```
 And that's it! Very easy, very reliable. However, there are some cases were `idn_to_ascii` and `idn_to_utf8` will fail. So take care of error handling.
+
+Make sure to check of documentation of [idn_to_ascii](https://www.php.net/manual/en/function.idn-to-ascii.php) and [idn_to_utf8](https://www.php.net/manual/en/function.idn-to-utf8).
+
+If you want to read up on Punycode check out these resources:
+- [Punycode - Wikipedia](https://en.wikipedia.org/wiki/Punycode)
+- [Punycode RFC3492](https://datatracker.ietf.org/doc/html/rfc3492)
